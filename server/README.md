@@ -13,3 +13,4 @@
 9. MVC Architecture
 10. connect to mongoDB database
 11. Schema and Model for User
+12. create seed route for testing
