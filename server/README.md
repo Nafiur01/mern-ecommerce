@@ -19,3 +19,5 @@
 15. GET /api/users/:id -> get a single user by id
 16. How to create services in the backend
 17. DELETE /api/users/:id -> delete a single user by Id
+18. Refactoring and reusability, making dynamic
+19. delete image helper 
