@@ -16,4 +16,6 @@
 12. create seed route for testing
 13. GET /api/users -> isAdmin -> getAllUsers -> searchByNAME + pagination functionality
 14. responseHandler controller for error or success
-15. GET /api/users/id: -> get a single user by id
+15. GET /api/users/:id -> get a single user by id
+16. How to create services in the backend
+17. DELETE /api/users/:id -> delete a single user by Id
