@@ -21,3 +21,5 @@
 17. DELETE /api/users/:id -> delete a single user by Id
 18. Refactoring and reusability, making dynamic
 19. delete image helper 
+20. POST /api/users/process-register -> process the registration
+21. POST /api/users/verify -> verify + register into the database
