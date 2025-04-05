@@ -24,4 +24,5 @@
 20. POST /api/users/process-register -> process the registration
 21. create JWT -> JsonWebToken
 22. setup smtp server and prepare email
-23. POST /api/users/verify -> verify + register into the database
+23. send email with nodemailer
+24. POST /api/users/verify -> verify + register into the database
