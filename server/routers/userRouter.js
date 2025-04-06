@@ -6,10 +6,11 @@ const {
   processRegister,
   activateUserAccount,
 } = require("../controllers/userController");
+const upload = require("../middlewares/uploadFile");
 const userRouter = express.Router();
 
 // GET: api/users
-userRouter.post("/process-register", processRegister);
+userRouter.post("/process-register", upload.single("image"), processRegister);
 userRouter.post("/verify", activateUserAccount);
 userRouter.get("/", getUsers);
 userRouter.get("/:id", getUserById);
