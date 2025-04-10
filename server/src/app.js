@@ -4,9 +4,9 @@ const morgan = require("morgan");
 const bodyParser = require("body-parser");
 const createError = require("http-errors");
 const rateLimit = require("express-rate-limit");
-const userRouter = require("../routers/userRouter");
-const seedRouter = require("../routers/seedRouter");
-const { errorResponse } = require("../controllers/responseController");
+const userRouter = require("./routers/userRouter");
+const seedRouter = require("./routers/seedRouter");
+const { errorResponse } = require("./controllers/responseController");
 
 const rateLimiter = rateLimit({
   windowMs: 1 * 60 * 1000, // 1 minute

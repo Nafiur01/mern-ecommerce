@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 const findWithId = require("../services/findItem");
 const deleteImage = require("../helper/deleteImage");
 const { createJsonWebToken } = require("../helper/jsonwebtoken");
-const { jwtActivationKey, clientUrl } = require("../src/secret");
+const { jwtActivationKey, clientUrl } = require("../secret");
 const emailWithNodemailer = require("../helper/email");
 
 const getUsers = async (req, res, next) => {

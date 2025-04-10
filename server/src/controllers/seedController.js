@@ -1,5 +1,5 @@
 const { User } = require("../models/userModel");
-const data = require("../src/data");
+const data = require("../data");
 
 const seedUser = async (req, res, next) => {
   try {

@@ -1,4 +1,4 @@
-const connectDB = require("../config/db");
+const connectDB = require("./config/db");
 const app = require("./app");
 const { serverPort } = require("./secret");
 

@@ -1,5 +1,5 @@
 const nodemailer = require("nodemailer");
-const { smtpUsername, smtpPassword } = require("../src/secret");
+const { smtpUsername, smtpPassword } = require("../secret");
 
 console.log(smtpUsername,smtpPassword);
 

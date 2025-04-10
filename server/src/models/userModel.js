@@ -1,6 +1,6 @@
 const { Schema, model } = require("mongoose");
 const bcrypt = require("bcryptjs");
-const { defaultImagePath } = require("../src/secret");
+const { defaultImagePath } = require("../secret");
 
 const userSchema = new Schema(
   {
@@ -37,6 +37,7 @@ const userSchema = new Schema(
     address: {
       type: String,
       required: [true, "User address is required"],
+      minlength: [3, "The length of address is minimum 3 character"],
     },
     phone: {
       type: String,
