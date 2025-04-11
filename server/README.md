@@ -30,3 +30,4 @@
 26. refactoring
 27. input validation 
 28. should we store image as buffer or string?
+29. PUT /api/users/:id -> update a single user by id
