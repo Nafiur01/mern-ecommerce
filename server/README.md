@@ -29,3 +29,4 @@
 25. add multer middleware for file upload
 26. refactoring
 27. input validation 
+28. should we store image as buffer or string?
